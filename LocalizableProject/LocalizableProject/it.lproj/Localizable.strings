@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  LocalizableProject
+
+  Created by Alessandro Zoffoli on 11/07/14.
+  Copyright (c) 2014 Apexnet. All rights reserved.
+*/
+"Hello, World!" = "Ciao, Mondo!";
+"Hello, World! Again.." = "Ciao, Mondo! Ancora..";
+"Ok" = "Ok";
