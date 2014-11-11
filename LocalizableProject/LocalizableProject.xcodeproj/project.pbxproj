@@ -33,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		572E132F1A12594F00A2BC82 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		572E13301A12594F00A2BC82 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		572E13311A12594F00A2BC82 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		579B550B196FCF81000CE160 /* LocalizableProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizableProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		579B550E196FCF81000CE160 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		579B5510196FCF81000CE160 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -209,6 +212,7 @@
 			knownRegions = (
 				en,
 				it,
+				fr,
 			);
 			mainGroup = 579B5502196FCF81000CE160;
 			productRefGroup = 579B550C196FCF81000CE160 /* Products */;
@@ -276,6 +280,7 @@
 			children = (
 				579B5518196FCF81000CE160 /* en */,
 				579B5543196FD27D000CE160 /* it */,
+				572E132F1A12594F00A2BC82 /* fr */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -284,6 +289,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				579B5531196FCF81000CE160 /* en */,
+				572E13311A12594F00A2BC82 /* fr */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -293,6 +299,7 @@
 			children = (
 				579B5540196FD1E8000CE160 /* en */,
 				579B5544196FD27D000CE160 /* it */,
+				572E13301A12594F00A2BC82 /* fr */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -457,6 +464,7 @@
 				579B5539196FCF81000CE160 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		579B553A196FCF81000CE160 /* Build configuration list for PBXNativeTarget "LocalizableProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +473,7 @@
 				579B553C196FCF81000CE160 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
